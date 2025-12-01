@@ -28,8 +28,11 @@ outputs something like openjdk/javac 1.8 for Android 7 and 8
 
 
 Next is python. You need python 2 to be set as default for Android 9 and below and python 3 for Android 10 and up.  
-You may need to manually install the python2 package and symlink it to python using [update-alternatives](https://www.baeldung.com/linux/update-alternatives-command) just like java.  
-Verify the version once again using
+I highly recommend checking out pyenv for that. After having [set up pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#linuxunix) you can simply run:
+```bash
+pyenv install 2
+```
+And verify it worked with:
 ```bash
 python --version
 ```
