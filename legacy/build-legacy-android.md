@@ -7,10 +7,8 @@ Old Android versions can be pretty difficult to build nowadays and thus this gui
 
 Assuming you set up your build enviromnet already you still have to install legacy java and python for Android 8 and below. Newer versions ship the jdk inside the source.
 
-The [Lineage wiki](https://wiki.lineageos.org/devices/flounder/build/#java) has a comprehensive guide on that for ubuntu/-based distros and fedora also still ships openjdk 8 in their repos, which you can install by running:
-```bash
-sudo dnf install temurin-8-jdk
-```
+The [Lineage wiki](https://wiki.lineageos.org/devices/flounder/build/#java) has a comprehensive guide on that for ubuntu/-based distros and fedora lets you [set up temurin 8](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/#_installing_an_older_java_version) easily
+
 Note that you might need to use [update-alternatives](https://www.baeldung.com/linux/update-alternatives-command) to set the proper symlinks and use the old java/javac version.  
 In addition to that you need to allow Tls V1/1.1 by removing TLSv1 and TLSv1.1 from jdk.tls.disabledAlgorithms within /etc/java-8-openjdk/security/java.security on debian based distros.
 ```bash
