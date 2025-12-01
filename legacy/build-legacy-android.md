@@ -45,5 +45,5 @@ export LC_ALL=C && export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+Tiere
 and continue the build as usual.
 
 After verifying it boots you can implement the security backports from the lineage os gerrit.  
-For android 7 you can repopick the topics [n-asb-2021-10](https://review.lineageos.org/q/topic:%22n-asb-2021-09%22) up to the most recent backports [n-asb-2025-05](https://review.lineageos.org/q/topic:%22n-asb-2025-05%22) and [tzdb_N](https://review.lineageos.org/q/topic:%22tzdb_N%22) as of writing this guide.  
+For android 7 you can repopick the topics [n-asb-2021-10](https://review.lineageos.org/q/topic:%22n-asb-2021-09%22) up to the most recent backports [n-asb-2025-11](https://review.lineageos.org/q/topic:%22n-asb-2025-11%22) and [tzdb_N](https://review.lineageos.org/q/topic:%22tzdb_N%22) as of writing this guide.  
 [lin14-mGoms](https://codeberg.org/lin14-mgoms) is a notable fork that provides substratum, microg support and asb backports.  
